@@ -24,6 +24,7 @@ git reset --hard <commitid>
 ## 本地撤销
 
 git checkout -- <file> 回上一个状态( staged -> unstaged or modified->unmodified 不同)
+git checkout -- 全部撤回
 
 ## 本地删除
 
