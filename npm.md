@@ -1,17 +1,17 @@
-# È«¾Ö°²×°
+# å…¨å±€å®‰è£…
 //npm i -g --save typescript eslint typescript-eslint/parser typescript-eslint/eslint-plugin 
 npm i -g --save ts-node
 npm i -g --save nodemon
 npm i -g --save mocha chai
 
-# ¾Ö²¿°²×°dev
+# å±€éƒ¨å®‰è£…dev
 npm i --save-dev @types/node  @types/mocha @types/chai 
 
-# ¾Ö²¿°²×°
+# å±€éƒ¨å®‰è£…
 npm i --save mocha chai
 npm i --save typescript eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-alloy
 
-# npm²Ù×÷
+# npmæ“ä½œ
 npm publish
 npm view <pack>
 npm view <pack> versions
@@ -19,6 +19,6 @@ npm outdated
 npm udpate <pack>
 npm i npm@latest
 
-## ²å¼ş npm-check-update
+## æ’ä»¶ npm-check-update
 ncu  ncu-h
 ncu-u overwrite package.json

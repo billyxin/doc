@@ -30,3 +30,7 @@ git checkout -- 全部撤回
 
 git rm <file> 后 commit 同电脑删除无记录
 git checkout -- <file> 撤回已经 tracked 过没有 rm 过的的文件
+
+## 设置
+git config --global core.autocrlf false
+
