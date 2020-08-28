@@ -6,10 +6,11 @@ npm i -g --save mocha chai
 
 # 局部安装dev
 npm i --save-dev @types/node  @types/mocha @types/chai 
+npm i --save-dev typescript eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-alloy
+
 
 # 局部安装
 npm i --save mocha chai
-npm i --save typescript eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-alloy
 
 # npm操作
 npm publish
