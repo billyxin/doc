@@ -441,7 +441,7 @@
 	"New" = "(Ctrl+Alt+N)"
 	"OpenComp" = "(Backslash)(Yen)"
 	"OpenMRUContext" = "(Shift+Esc)"
-	"PreviewAudio" = "(PadDecimal)(PadComma)(PadDelete)"
+	"PreviewAudio" = "(PadComma)(PadDelete)"
 	"PreviewAudioWorkArea" = "(Alt+PadDecimal)(Alt+PadComma)(Alt+PadDelete)"
 	"PreviewNumpad0" = "(Pad0)(PadInsert)"
 	"PreviewNumpad0NFrames" = "(Alt+Pad0)(Alt+PadInsert)"
@@ -454,7 +454,8 @@
 	"RevealLayerInProjTree" = "()"
 	"RevealLayerSource" = "(Ctrl+HOME)"
 	"ShowAllVideo" = "(Alt+Shift+F1)"
-	"ShowConsole" = "(Ctrl+F12)"
+	"ShowConsole" = "()"
+	"ToggleGuideLayer" = "(Ctrl+Alt+G)"
 	"ToggleTransmit" = "()"
 	"UpdateMarkersFromSource" = "(Ctrl+F5)"
 	"WorkspaceRevert" = "(Shift+F10)"
@@ -626,11 +627,11 @@
 	"EasyEaseOut" = "(Ctrl+Shift+F9)"
 	"EditFileExternally" = "(Ctrl+E)"
 	"EnableTimeRemap" = "(Ctrl+Alt+T)"
-	"ExecuteScript" = "()"
+	"ExecuteScript" = "(Ctrl+F12)"
 	"FilterNone" = "(Ctrl+Shift+E)"
 	"Find" = "(Ctrl+F)"
 	"ForceScanForChangedFootage" = "(Shift+F8)"
-	"GoToTime" = "(Alt+Shift+J)"
+	"GoToTime" = "(PadDecimal)(Alt+Shift+J)"
 	"Group" = "(Ctrl+G)"
 	"HelpAfterEffectsHelp" = "()"
 	"HideOtherVideo" = "(Shift+F1)"
@@ -780,6 +781,9 @@
 	"MacSysMenuHideMe" = "()"
 	"MacSysMenuHideOthers" = "()"
 	"MacSysMenuMinimize" = "()"
+
+["NIMCmd"]
+	"Sequence Layers..." = "(F7)"
 
 ["POutlinePano"]
 	"AddItemToComp" = "(Ctrl+/)"

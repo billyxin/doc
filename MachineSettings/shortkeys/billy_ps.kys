@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<photoshop-keyboard-shortcuts version="4" filename="$$$/FileName/Presets/KeyboardCustomization/billy_ps=billy_ps" modified="0" multi-undo="1">
+<photoshop-keyboard-shortcuts version="4" filename="$$$/FileName/Presets/KeyboardCustomization/billy_ps=billy_ps" modified="1" multi-undo="1">
 	<command kind="dynamic" name="Unsharp Mask...">
 		<shortcut>Ctrl+F1</shortcut>
 	</command>
@@ -49,7 +49,7 @@
 	<command kind="static" id="46" name="关闭其它">
 		<shortcut>Alt+Ctrl+P</shortcut>
 	</command>
-	<command kind="static" id="101" name="还原置入链接的智能对象(O)">
+	<command kind="static" id="101" name="还原(O)">
 		<shortcut>Ctrl+Z</shortcut>
 	</command>
 	<command kind="static" id="103" name="剪切(T)">
@@ -89,7 +89,7 @@
 	<command kind="static" id="1018" name="反选(I)">
 		<shortcut>Shift+Ctrl+I</shortcut>
 	</command>
-	<command kind="static" id="1019" name="Camera Raw 滤镜">
+	<command kind="static" id="1019" name="上次滤镜操作(F)">
 		<shortcut>Alt+Ctrl+F</shortcut>
 	</command>
 	<command kind="static" id="1030" name="图像大小(I)...">
@@ -99,7 +99,7 @@
 		<shortcut>F12</shortcut>
 	</command>
 	<command kind="static" id="1036" name="羽化(F)...">
-		<shortcut>Shift+F6</shortcut>
+		<shortcut>Alt+Shift+Ctrl+0</shortcut>
 	</command>
 	<command kind="static" id="1040" name="贴入(I)">
 		<shortcut>Alt+Shift+Ctrl+V</shortcut>
@@ -118,6 +118,12 @@
 	</command>
 	<command kind="static" id="1107" name="合并拷贝(Y)">
 		<shortcut>Shift+Ctrl+C</shortcut>
+	</command>
+	<command kind="static" id="1109" name="扩展(E)...">
+		<shortcut>Alt+Shift+Ctrl+=</shortcut>
+	</command>
+	<command kind="static" id="1110" name="收缩(C)...">
+		<shortcut>Alt+Shift+Ctrl+-</shortcut>
 	</command>
 	<command kind="static" id="1114" name="隐藏图层(R)">
 		<shortcut>F1</shortcut>
@@ -140,10 +146,7 @@
 	<command kind="static" id="1158" name="显示选区(V)">
 		<shortcut>F3</shortcut>
 	</command>
-	<command kind="static" id="1159" name="启用(B)">
-		<shortcut>F6</shortcut>
-	</command>
-	<command kind="static" id="1166" name="向下合并(E)">
+	<command kind="static" id="1166" name="合并图层(E)">
 		<shortcut>F8</shortcut>
 	</command>
 	<command kind="static" id="1170" name="动作">
@@ -161,6 +164,9 @@
 	</command>
 	<command kind="static" id="1331" name="混合选项(N)...">
 		<shortcut>Ctrl+F</shortcut>
+	</command>
+	<command kind="static" id="1510" name="内容识别填充...">
+		<shortcut>Alt+Shift+Ctrl+/</shortcut>
 	</command>
 	<command kind="static" id="1520" name="在 Bridge 中浏览(B)...">
 		<shortcut>Alt+Ctrl+O</shortcut>
@@ -235,6 +241,9 @@
 	<command kind="static" id="2940" name="锁定参考线(G)">
 		<shortcut>Alt+Ctrl+;</shortcut>
 	</command>
+	<command kind="static" id="2951" name="隐藏图层(H)">
+		<shortcut>Shift+Ctrl+Q</shortcut>
+	</command>
 	<command kind="static" id="2957" name="锁定图层(L)...">
 		<shortcut>Ctrl+/</shortcut>
 	</command>
@@ -253,14 +262,11 @@
 	<command kind="static" id="2971" name="通过剪切的图层">
 		<shortcut>Shift+Ctrl+J</shortcut>
 	</command>
-	<command kind="static" id="2972" name="创建剪贴蒙版(C)">
-		<shortcut>Shift+F7</shortcut>
-	</command>
 	<command kind="static" id="2982" name="查找图层">
 		<shortcut>Alt+Shift+Ctrl+F</shortcut>
 	</command>
 	<command kind="static" id="3090" name="置入链接的智能对象(K)...">
-		<shortcut>Ctrl+F7</shortcut>
+		<shortcut>F6</shortcut>
 	</command>
 	<command kind="static" id="3091" name="在资源管理器中显示">
 		<shortcut>Ctrl+F12</shortcut>
@@ -293,10 +299,7 @@
 		<shortcut>Shift+Ctrl+;</shortcut>
 	</command>
 	<command kind="static" id="5059" name="删除(E)">
-		<shortcut>F7</shortcut>
-	</command>
-	<command kind="static" id="5085" name="链接(L)">
-		<shortcut>F5</shortcut>
+		<shortcut>Shift+F4</shortcut>
 	</command>
 	<command kind="static" id="5095" name="应用(A)">
 		<shortcut>F4</shortcut>
@@ -320,13 +323,15 @@
 		<shortcut>Shift+F3</shortcut>
 	</command>
 	<command kind="static" id="6340" name="重新链接到文件(F)...">
-		<shortcut>Ctrl+F8</shortcut>
+		<shortcut>Shift+F6</shortcut>
+	</command>
+	<command kind="static" id="6343" name="更新所有修改的内容(A)">
+		<shortcut>F5</shortcut>
 	</command>
 	<command kind="static" id="6545" name="渲染 3D 图层(R)">
 		<shortcut>Alt+Shift+Ctrl+R</shortcut>
 	</command>
 	<tool name="移动工具" type="1" key="1819113074">V</tool>
-	<tool name="画板工具" type="1" key="1098019924">V</tool>
 	<tool name="矩形选框工具" type="1" key="1919380852">S</tool>
 	<tool name="椭圆选框工具" type="1" key="1701604724">M</tool>
 	<tool name="单行选框工具" type="1" key="1936878964"></tool>
@@ -394,6 +399,7 @@
 	<tool name="抓手工具" type="1" key="1751215716">H</tool>
 	<tool name="旋转视图工具" type="1" key="1919906932"></tool>
 	<tool name="缩放工具" type="1" key="2054123373"></tool>
+	<tool name="画板工具" type="1" key="1098019924"></tool>
 	<tool name="目标调整工具" type="1" key="1952932196"></tool>
 	<tool name="默认前景色/背景色" type="2">D</tool>
 	<tool name="前景色/背景色互换" type="3">X</tool>

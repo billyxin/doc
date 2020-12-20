@@ -1,0 +1,49 @@
+[
+  {
+    "_id": "BillysScripts-1596518856107",
+    "name": "BillysScripts",
+    "type": "expression",
+    "creation_date": 1596518856107,
+    "expressions": [
+      {
+        "_id": "LoadFile-1596518874213",
+        "code": "file_name = \"getTextFromMarker.txt\"; //加载文件\r\ntry {\r\n\tdata = footage(file_name).sourceText;\r\n\teval(data);\r\n} catch {\r\n\tfile_name + \" : can't' be loaded\";\r\n}",
+        "name": "LoadFile",
+        "documentation": "Load a file",
+        "property_types": [],
+        "snippet_prefix": "ld",
+        "is_snippet": true,
+        "last_update": 1598777650001
+      },
+      {
+        "_id": "pintObj-1596602066240",
+        "code": "function printObj(tar) {\r\n\tlog = \"\";\r\n\tfor (var i in tar) {\r\n\t\tlog += \"【 \" + i + \" 】: \\t\\t\" + tar[i] + \"\\r\"\r\n\t}\r\n\treturn log;\r\n}\r\nprintObj(tar);",
+        "name": "pintObj",
+        "documentation": "pintObj",
+        "property_types": ["2d"],
+        "last_update": 1598777478333
+      },
+      {
+        "code": "",
+        "name": "test",
+        "creation_date": 1596816549384,
+        "last_update": 1596816549384,
+        "_id": "test-1596816549384"
+      }
+    ]
+  },
+  {
+    "_id": "Default-1596517363918",
+    "name": "Default",
+    "type": "script",
+    "creation_date": 1596517363918,
+    "expressions": []
+  },
+  {
+    "_id": "Default-1596517363920",
+    "name": "Default",
+    "type": "expression",
+    "creation_date": 1596517363920,
+    "expressions": []
+  }
+]

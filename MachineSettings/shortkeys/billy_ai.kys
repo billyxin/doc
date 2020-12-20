@@ -31,9 +31,9 @@
 	}
 	/navigateToNextDocument {
 		/Context 0
-		/Modifiers 64
-		/Represent 19
-		/Key 19
+		/Modifiers 0
+		/Represent 0
+		/Key 0
 	}
 	/debugPalette {
 		/Context 0
@@ -152,8 +152,8 @@
 	/Adobe\ New\ Symbol\ Shortcut {
 		/Context 0
 		/Modifiers 0
-		/Represent 21
-		/Key 21
+		/Represent 0
+		/Key 0
 	}
 	/exitFocus {
 		/Context 0
@@ -404,8 +404,8 @@
 	/Adobe\ Color\ Palette {
 		/Context 0
 		/Modifiers 0
-		/Represent 19
-		/Key 19
+		/Represent 0
+		/Key 0
 	}
 	/Adobe\ LinkPalette\ Menu\ Item {
 		/Context 0
@@ -547,9 +547,9 @@
 	}
 	/AdobeAlignObjects2 {
 		/Context 0
-		/Modifiers 32
-		/Represent 20
-		/Key 20
+		/Modifiers 0
+		/Represent 0
+		/Key 0
 	}
 	/Adobe\ Learn\ Panel\ Menu\ Item {
 		/Context 0
@@ -559,9 +559,9 @@
 	}
 	/Style\ Palette {
 		/Context 0
-		/Modifiers 32
-		/Represent 19
-		/Key 19
+		/Modifiers 0
+		/Represent 0
+		/Key 0
 	}
 	/Adobe\ Pattern\ Panel\ Toggle {
 		/Context 0
@@ -578,8 +578,8 @@
 	/AdobeLayerPalette1 {
 		/Context 0
 		/Modifiers 0
-		/Represent 20
-		/Key 20
+		/Represent 0
+		/Key 0
 	}
 	/Adobe\ Vectorize\ Panel {
 		/Context 0
@@ -595,9 +595,9 @@
 	}
 	/AdobeTransformObjects1 {
 		/Context 0
-		/Modifiers 32
-		/Represent 21
-		/Key 21
+		/Modifiers 0
+		/Represent 0
+		/Key 0
 	}
 	/Adobe\ Action\ Palette {
 		/Context 0
@@ -613,9 +613,9 @@
 	}
 	/internal\ palettes\ posing\ as\ plug-in\ menus-info {
 		/Context 0
-		/Modifiers 64
-		/Represent 21
-		/Key 21
+		/Modifiers 0
+		/Represent 0
+		/Key 0
 	}
 	/Adobe\ SVG\ Interactivity\ Palette {
 		/Context 0
@@ -685,9 +685,9 @@
 	}
 	/consolidateAllWindows {
 		/Context 0
-		/Modifiers 0
-		/Represent 0
-		/Key 0
+		/Modifiers 32
+		/Represent 23
+		/Key 23
 	}
 	/floatAllInWindows {
 		/Context 0
@@ -704,8 +704,8 @@
 	/tile {
 		/Context 0
 		/Modifiers 0
-		/Represent 0
-		/Key 0
+		/Represent 23
+		/Key 23
 	}
 	/cascade {
 		/Context 0
@@ -842,8 +842,8 @@
 	/showguide {
 		/Context 0
 		/Modifiers 64
-		/Represent 59
-		/Key 59
+		/Represent 14
+		/Key 14
 	}
 	/textthreads {
 		/Context 0
@@ -961,15 +961,15 @@
 	}
 	/artboard {
 		/Context 0
-		/Modifiers 96
-		/Represent 72
-		/Key 72
+		/Modifiers 32
+		/Represent 14
+		/Key 14
 	}
 	/edge {
 		/Context 0
-		/Modifiers 64
-		/Represent 72
-		/Key 72
+		/Modifiers 0
+		/Represent 14
+		/Key 14
 	}
 	/actualsize {
 		/Context 0
@@ -1640,8 +1640,8 @@
 	/Live\ Transform {
 		/Context 0
 		/Modifiers 0
-		/Represent 14
-		/Key 14
+		/Represent 16
+		/Key 16
 	}
 	/Live\ Deform\ Twist {
 		/Context 0
@@ -1910,8 +1910,8 @@
 	/Find\ Fill\ &\ Stroke\ menu\ item {
 		/Context 0
 		/Modifiers 0
-		/Represent 0
-		/Key 0
+		/Represent 15
+		/Key 15
 	}
 	/Find\ Blending\ Mode\ menu\ item {
 		/Context 0
@@ -2389,15 +2389,15 @@
 	}
 	/releaseMask {
 		/Context 0
-		/Modifiers 192
-		/Represent 55
-		/Key 55
+		/Modifiers 32
+		/Represent 20
+		/Key 20
 	}
 	/makeMask {
 		/Context 0
-		/Modifiers 64
-		/Represent 55
-		/Key 55
+		/Modifiers 0
+		/Represent 20
+		/Key 20
 	}
 	/Text\ Wrap\ Options... {
 		/Context 0
@@ -2654,14 +2654,14 @@
 	/OffsetPath\ v23 {
 		/Context 0
 		/Modifiers 0
-		/Represent 18
-		/Key 18
+		/Represent 22
+		/Key 22
 	}
 	/OffsetPath\ v22 {
 		/Context 0
 		/Modifiers 0
-		/Represent 17
-		/Key 17
+		/Represent 21
+		/Key 21
 	}
 	/average {
 		/Context 0
@@ -2779,15 +2779,15 @@
 	}
 	/expandStyle {
 		/Context 0
-		/Modifiers 0
-		/Represent 15
-		/Key 15
+		/Modifiers 64
+		/Represent 21
+		/Key 21
 	}
 	/Expand3 {
 		/Context 0
-		/Modifiers 0
-		/Represent 16
-		/Key 16
+		/Modifiers 32
+		/Represent 21
+		/Key 21
 	}
 	/showAll {
 		/Context 0
@@ -3337,9 +3337,9 @@
 	}
 	/AI\ Place {
 		/Context 0
-		/Modifiers 96
-		/Represent 80
-		/Key 80
+		/Modifiers 0
+		/Represent 19
+		/Key 19
 	}
 	/Search\ Adobe\ Stock {
 		/Context 0
@@ -4180,8 +4180,8 @@
 	/Adobe\ Crop\ Tool {
 		/Context 0
 		/Modifiers 32
-		/Represent 79
-		/Key 79
+		/Represent 33
+		/Key 33
 	}
 	/Adobe\ Direct\ Lasso\ Tool {
 		/Context 0
