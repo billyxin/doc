@@ -1,1 +1,7 @@
-<script>window.$ = window.jQuery = require('./js/jquery-1.11.0.min.js');</script>
+ctrl shift e 打开资源管理器
+ctrl alt shift e 关闭侧栏
+
+alt shift l 进入活动编辑器
+alt shift m 进入终端
+
+ctrl shift c 打开新终端
