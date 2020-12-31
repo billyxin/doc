@@ -1,0 +1,51 @@
+默认Jupyter Notebook没有安装代码提示功能，极度影响编程效率，但是我们可以可通过如下命令安装和配置使得Jupyter Notebook具备代码提供功能。
+
+1、开始菜单运行Anaconda Prompt (Anaconda3)，逐条输入命令
+
+pip install jupyter_contrib_nbextensions
+
+jupyter contrib nbextension install
+
+pip install jupyter_nbextensions_configurator
+
+jupyter nbextensions_configurator enable
+
+-----
+
+2、 文件默认存储路径怎么改？
+第一步：找到配置文件
+菜单中打开Anaconda Prompt
+输入命令 jupyter notebook --generate-config
+根据上面运行处的路径打开C:\Users\HS\.jupyter\jupyter_notebook_config.py文件
+第二步：更改配置
+找到 #c.NotebookApp.notebook_dir = ''，去掉该行前面的“#”；在打算存放文件的位置先新建一个文件夹（很重要，最好是英文的），然后将新的路径设置在单引号中，保存配置文件
+在开始菜单找到“Jupyte Notebook”快捷键，鼠标右击 -- 更多 -- 打开文件位置
+找到对应的“Jupyte Notebook”快捷图标，鼠标右击 -- 属性 -- 目标，去掉后面的 "%USERPROFILE%/"（很重要），然后点击“应用”，“确定”　　
+重新启动Jupyte Notebook即可
+
+------
+
+这个连接提供了jupyter notebook的几个themes,做得还挺不错的，尤其是黑色，非常适合码农护眼！如果是mac用户打开终端（terminal），win用户的话打开命令行（使用Anaconda装jupyter notebook的用户可以打开Anaconda Prompt)。最关键的还是要装pip，否则使用不了下面的代码：
+
+安装jupter notebook的自定义主题
+pip install --upgrade jupyterthemes
+
+上面一步执行完后继续输入下面代码，可以看到安装的这几个自定义主题的名称
+jt -l
+如图所示：
+
+现在可以选择一个主题名执行以下代码换皮肤了,例如：
+jt -t chesterish -T -N
+这就表示选择了chesterish这个主题，-T表示打开顶部的工具栏，-N显示笔记本的名字，当然不想要这两个的话可以吧-T -N删掉
+
+如果想恢复原默认主题，输入以下代码
+jt -r
+
+------
+css:
+
+
+D:\ProgramData\Anaconda3\Lib\site-packages\notebook\static\components\codemirror\lib
+C:\Users\asus\.jupyter\custom
+替换 
+字体为Fira Code
