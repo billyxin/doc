@@ -1,7 +1,12 @@
-ctrl shift e 打开资源管理器
-ctrl alt shift e 关闭侧栏
+http://resuly.me/2017/11/03/jupyter-config-for-windows/
 
-alt shift l 进入活动编辑器
-alt shift m 进入终端
+https://blog.csdn.net/skybulex/article/details/107337999
+https://www.cnblogs.com/zwt20120701/p/11253297.html
 
-ctrl shift c 打开新终端
+https://www.jianshu.com/p/67017ed27868
+
+css:
+mirror:
+
+D:\ProgramData\Anaconda3\Lib\site-packages\notebook\static\components\codemirror\lib
+C:\Users\asus\.jupyter\custom
