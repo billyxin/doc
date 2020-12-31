@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<photoshop-keyboard-shortcuts version="4" filename="$$$/FileName/Presets/KeyboardCustomization/billy_ps=billy_ps" modified="1" multi-undo="1">
+<photoshop-keyboard-shortcuts version="4" filename="$$$/FileName/Presets/KeyboardCustomization/billy_ps=billy_ps" modified="0" multi-undo="1">
 	<command kind="dynamic" name="Unsharp Mask...">
 		<shortcut>Ctrl+F1</shortcut>
 	</command>
@@ -49,7 +49,7 @@
 	<command kind="static" id="46" name="关闭其它">
 		<shortcut>Alt+Ctrl+P</shortcut>
 	</command>
-	<command kind="static" id="101" name="还原(O)">
+	<command kind="static" id="101" name="还原置入嵌入的智能对象(O)">
 		<shortcut>Ctrl+Z</shortcut>
 	</command>
 	<command kind="static" id="103" name="剪切(T)">
@@ -89,7 +89,7 @@
 	<command kind="static" id="1018" name="反选(I)">
 		<shortcut>Shift+Ctrl+I</shortcut>
 	</command>
-	<command kind="static" id="1019" name="上次滤镜操作(F)">
+	<command kind="static" id="1019" name="Camera Raw 滤镜">
 		<shortcut>Alt+Ctrl+F</shortcut>
 	</command>
 	<command kind="static" id="1030" name="图像大小(I)...">
@@ -103,9 +103,6 @@
 	</command>
 	<command kind="static" id="1040" name="贴入(I)">
 		<shortcut>Alt+Shift+Ctrl+V</shortcut>
-	</command>
-	<command kind="static" id="1042" name="填充(L)...">
-		<shortcut>Shift+F5</shortcut>
 	</command>
 	<command kind="static" id="1099" name="图层(L)...">
 		<shortcut>Ctrl+E</shortcut>
@@ -298,6 +295,9 @@
 	<command kind="static" id="3520" name="对齐(N)">
 		<shortcut>Shift+Ctrl+;</shortcut>
 	</command>
+	<command kind="static" id="3549" name="智能对象(O)">
+		<shortcut>Shift+F5</shortcut>
+	</command>
 	<command kind="static" id="5059" name="删除(E)">
 		<shortcut>Shift+F4</shortcut>
 	</command>
@@ -344,9 +344,9 @@
 	<tool name="魔棒工具" type="1" key="2002873956">W</tool>
 	<tool name="裁剪工具" type="1" key="1668444016">C</tool>
 	<tool name="透视裁剪工具" type="1" key="1885565552">C</tool>
+	<tool name="图框工具" type="1" key="1181773652">K</tool>
 	<tool name="切片工具" type="1" key="1399612244">C</tool>
 	<tool name="切片选择工具" type="1" key="1399608148">C</tool>
-	<tool name="图框工具" type="1" key="1181773652">K</tool>
 	<tool name="吸管工具" type="1" key="1702454628">R</tool>
 	<tool name="颜色取样器工具" type="1" key="1668246643">I</tool>
 	<tool name="3D 材质吸管工具" type="1" key="860115789">I</tool>
@@ -363,7 +363,7 @@
 	<tool name="颜色替换工具" type="1" key="1668440692">B</tool>
 	<tool name="混合器画笔工具" type="1" key="2003137634">B</tool>
 	<tool name="仿制图章工具" type="1" key="1937006957">Z</tool>
-	<tool name="图案图章工具" type="1" key="1937010032">S</tool>
+	<tool name="图案图章工具" type="1" key="1937010032"></tool>
 	<tool name="历史记录画笔工具" type="1" key="1752396866">Y</tool>
 	<tool name="历史记录艺术画笔工具" type="1" key="1634230900">Y</tool>
 	<tool name="橡皮擦工具" type="1" key="1701994867">E</tool>
