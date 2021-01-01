@@ -1,13 +1,9 @@
-代码提供功能。
-
+代码提示功能。
 1、开始菜单运行Anaconda Prompt (Anaconda3)，逐条输入命令
 
 pip install jupyter_contrib_nbextensions
-
 jupyter contrib nbextension install
-
 pip install jupyter_nbextensions_configurator
-
 jupyter nbextensions_configurator enable
 
 -----
