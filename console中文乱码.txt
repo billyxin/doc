@@ -9,8 +9,7 @@
  --> 添加一个字符串值 （名称为：autorun  数据为：chcp 65001）问题解决
 
 //
-git desktop失效用autorun方案比较好
-打开Git Gui,option选utf8,desktop就可以用了。
+git desktop失效用autorun方案比较好  打开Git Gui,option选utf8,desktop就可以用了。
 
 
 //这个没有用。
