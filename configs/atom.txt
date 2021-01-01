@@ -1,7 +1,11 @@
 https://www.jianshu.com/p/4e0b5dc2a52a
 
 
-token
+token for pc
 8d243320ba84e2601b47e0d5f0ed1bc36195d124
+
+token for notebook
+f0bb98e2d3e3fa0fbb901b3d2e70b35b63fee564
+
 gist id
 ec6854bf6cc1e481cfd571b50546ff76
