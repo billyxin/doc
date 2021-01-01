@@ -1,4 +1,4 @@
-## 远程查看 fetch/push
+## 远程查看 fetch/push 
 git remote -v
 
 ## 远程关联
