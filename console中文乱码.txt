@@ -5,15 +5,21 @@
 3.最后，要使编码的改变永久生效，需要在属性中勾上【丢弃旧的副本】选项。====无效
 
 按照原来的办法 每次打开都要输入“chcp 65001“ 那么其实只要每次打开时让电脑自动输入这串代码即可办法win+R -->  regedit  -->
+
 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor
+
  --> 添加一个字符串值 （名称为：autorun  数据为：chcp 65001）问题解决
 
+//
 git desktop失效
+用autorun方案比较好
+
+打开Git Gui,option选utf8,desktop就可以用了。
+
+
 
 //
-
 https://superuser.com/questions/269818/change-default-code-page-of-windows-console-to-utf-8
-
 在Windows 10的1809版本中，我设法通过转到系统的Language settings，选择Administrative language settings，单击Change system locale...并选中Beta: Use Unicode UTF-8 for worldwide language support复选框，然后重新启动我的计算机，来永久解决此问题。
 
 这样，它适用于所有应用程序，甚至包括那些我不是从命令提示符启动的应用程序！
