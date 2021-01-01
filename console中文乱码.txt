@@ -18,7 +18,7 @@ git desktop失效
 
 
 
-//
+//这个没有用。
 https://superuser.com/questions/269818/change-default-code-page-of-windows-console-to-utf-8
 在Windows 10的1809版本中，我设法通过转到系统的Language settings，选择Administrative language settings，单击Change system locale...并选中Beta: Use Unicode UTF-8 for worldwide language support复选框，然后重新启动我的计算机，来永久解决此问题。
 
