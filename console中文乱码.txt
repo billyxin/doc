@@ -1,0 +1,37 @@
+1.打开cmd控制台，在命令行输入chcp后回车可以查看到当前的字符编码。如果是乱码的话，这时通常是936，代表的是GBK编码。
+
+2.在命令行输入chcp 65001后回车。65001代表的是UTF-8编码。改了之后就不会中文乱码了。
+
+3.最后，要使编码的改变永久生效，需要在属性中勾上【丢弃旧的副本】选项。====无效
+
+按照原来的办法 每次打开都要输入“chcp 65001“ 那么其实只要每次打开时让电脑自动输入这串代码即可办法win+R -->  regedit  -->
+计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor
+ --> 添加一个字符串值 （名称为：autorun  数据为：chcp 65001）问题解决
+
+git desktop失效
+
+//
+
+https://superuser.com/questions/269818/change-default-code-page-of-windows-console-to-utf-8
+
+在Windows 10的1809版本中，我设法通过转到系统的Language settings，选择Administrative language settings，单击Change system locale...并选中Beta: Use Unicode UTF-8 for worldwide language support复选框，然后重新启动我的计算机，来永久解决此问题。
+
+这样，它适用于所有应用程序，甚至包括那些我不是从命令提示符启动的应用程序！
+（这对我来说是必需的，因为我试图从Atom中编辑Agda代码。）
+
+//
+
+
+永久修改方法一
+win+R 或者点击开始菜单，找到运行，在运行输入框里面输入regedit，回车，会打开注册码编辑窗口，在地址栏输入：
+
+计算机\HKEY_CURRENT_USER\Console\%SystemRoot%_System32_cmd.exe
+
+，回车。
+双击 CodePage 然后先择十进制，改为65001。
+
+
+作者：AndyChen
+链接：https://www.jianshu.com/p/9f349a9ee77a
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
