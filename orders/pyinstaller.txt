@@ -1,5 +1,24 @@
-Pyinstaller -F setup.py 打包exe
+https://pypi.org/project/pyinstaller/
 
-Pyinstaller -F -w setup.py 不带控制台的打包
+pip3 install pyinstaller
 
-Pyinstaller -F -i xx.ico setup.py 打包指定exe图标打包
+
+pyinstaller -F setup.py
+打包exe
+
+pyinstaller -F -w setup.py
+不带控制台的打包
+
+pyinstaller -F -i test.ico xxxxx.py
+打包指定exe图标打包
+
+//--------------//
+
+pyinstaller -F -w (-i icofile) filename
+filename表示你的Python程序文件名
+
+-w 表示隐藏程序运行时的命令行窗口（不加-w会有黑色窗口）
+括号内的为可选参数，-i icofile表示给程序加上图标，图标必须为.ico格式
+icofile表示图标的位置，建议直接放在程序文件夹里面，这样子打包的时候直接写文件名就好
+
+pyinstaller -F -w -i favicon love.py
