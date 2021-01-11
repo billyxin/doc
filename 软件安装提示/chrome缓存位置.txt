@@ -16,11 +16,6 @@ mklink /D "C:\Users\billy\AppData\Local\Microsoft\Edge\User Data\Default\Cache" 
 遇到权限问题请以管理员方式运行CMD命令行；
 Edge图标依次右键 -> 属性 -> 目标 -> 末尾加上 --disk-cache-dir="E:\Cache\Edge"（--前面有1个空格，引号内容更改为新缓存路径），点击确定。
 
-作者：知乎用户
-链接：https://www.zhihu.com/question/58812652/answer/1394575608
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
 firefox:
 1、在 firefox 地址栏输入 about:cache 回车
 firefox临时文件位置查看
