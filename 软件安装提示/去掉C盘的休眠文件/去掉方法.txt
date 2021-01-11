@@ -1,0 +1,15 @@
+文件夹选项
+显示系统文件
+
+C盘根目录：
+hiberfil.sys 可以删吗？
+
+管理员 cmd 
+
+powercfg -h off
+
+
+
+Hibernate.sys文件就消失了。下次如果还是想要使用休眠功能，可以打如下命令开启
+
+Powercfg -h on

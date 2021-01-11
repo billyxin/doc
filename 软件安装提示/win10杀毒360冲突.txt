@@ -1,0 +1,5 @@
+Windows defender出现你的病毒和威胁防护由你的组织管理
+
+Cortana中输入命令提示符，右键管理员身份运行，输入“reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 1 /t REG_DWORD /f”，回车，显示操作成功完成。
+
+重启后，在Cortana中输入命令提示符，右键管理员身份运行，输入reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 0 /t REG_DWORD /f，回车，显示操作成功完成。
