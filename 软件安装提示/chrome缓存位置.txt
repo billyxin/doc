@@ -5,9 +5,8 @@ C:\Users\billy\AppData\Local\Google\Chrome\User Data\Default\ 路径下的Cache�
 
 遇到权限问题请以管理员方式运行CMD命令行；
 在打开的Windows10的命令提示符窗口中输入
-mklink /D "C:\Users\billy\AppData\Local\Google\Chrome\User Data\Default\Cache" "G:\ChromeCache" 
+mklink /D "C:\Users\billy\AppData\Local\Google\Chrome\User Data\Default\Cache" "G:\ChromeCache"
 图标依次右键 -> 属性 -> 目标 -> 末尾加上 --disk-cache-dir="G:\ChromeCache"（--前面有1个空格，引号内容更改为新缓存路径），点击确定。
-
 
 edge:
 
