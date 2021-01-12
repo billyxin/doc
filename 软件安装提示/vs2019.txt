@@ -1,0 +1,10 @@
+插件：
+visual studio intellicode
+format on save
+snippet designer
+codemaid
+viasfora
+color themes for visual studio
+
+快捷键：工具 选项 键盘
+选 resharper
