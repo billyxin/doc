@@ -200,7 +200,7 @@
 
 
 ["** header **"]
-	"major_version" = "93"
+	"major_version" = "98"
 
 ["AE_TopLevelWindow"]
 	"SelectNextTab" = "(Alt+Shift+.)"
@@ -781,9 +781,6 @@
 	"MacSysMenuHideMe" = "()"
 	"MacSysMenuHideOthers" = "()"
 	"MacSysMenuMinimize" = "()"
-
-["NIMCmd"]
-	"Sequence Layers..." = "(F7)"
 
 ["POutlinePano"]
 	"AddItemToComp" = "(Ctrl+/)"

@@ -1,0 +1,3 @@
+[projectName]([compName])[width]x[height]([dateMonth][dateDay]-[timeHour]:[timeMins]).[fileextension]
+
+[compName]-[width]x[height]([dateMonth][dateDay]-[timeHour]:[timeMins]).[fileextension]

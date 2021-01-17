@@ -1,0 +1,13 @@
+快捷键
+C:\Users\billy\AppData\Roaming\Adobe\After Effects\17.5\aeks\billy_key_ae.txt
+G:\document\Adobe\Premiere Pro\14.0\Profile-billy\Win\billy_pr.kys
+C:\Users\billy\AppData\Roaming\Adobe\Audition\13.0\Shortcuts\billy.xml
+C:\Users\billy\AppData\Roaming\Adobe\Adobe Photoshop 2021\Presets\Keyboard Shortcuts\billy_ps.kys
+C:\Users\billy\AppData\Roaming\Adobe\Adobe Illustrator 25 Settings\zh_CN\x64\billy_ai.kys
+
+PS工具箱
+C:\Users\billy\AppData\Roaming\Adobe\Adobe Photoshop 2021\Presets\Custom Toolbars\billy-ps-tools.tbr
+
+ae改中文
+D:\Program Files\Adobe After Effects 2020\Support Files\AMT\application.xml
+<Data key="installedLanguages">en_GB,en_US</Data>
