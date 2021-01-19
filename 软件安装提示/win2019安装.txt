@@ -1,0 +1,13 @@
+激活：
+http://www.yishimei.cn/network/319.html
+
+VM 1CPU 2核 2G内存 30G硬盘
+安装选择没有密钥
+安装第四个数据中心 桌面体验
+
+安装VMTOOLS
+改计算机名
+激活
+关机快照
+链接克隆
+重新封装操作系统
