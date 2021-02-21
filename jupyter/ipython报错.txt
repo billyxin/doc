@@ -1,0 +1,19 @@
+
+
+D:\programData\anaconda\Lib\asyncio\proactor_events.py
+
+
+在第768行下加上
+
+
+766....try:
+767........if f is not None:
+768............f.result() # may raise
+...........if self._stopping: #新加代码
+...............raise exceptions.CancelledError("Event loop is stopping") # 新加代码
+769........f = self._proactor.recv(self._ssock, 4096)
+
+作者：愤愤的有痣青年
+链接：https://www.jianshu.com/p/876cf93f7bbf
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
