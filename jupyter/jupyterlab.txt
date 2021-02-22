@@ -1,0 +1,6 @@
+安装和升级
+pip install jupyterlab==3
+
+
+官网
+https://anaconda.org/conda-forge/jupyterlab
