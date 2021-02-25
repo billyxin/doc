@@ -39,6 +39,9 @@ conda update -n base -c defaults conda
 使用Python 3.8创建新环境：
 conda create -n python38 python=3.8
 
+删除环境
+conda remove -n py37 --all
+
 激活新的Python 3.8环境：
 conda activate python38
 
