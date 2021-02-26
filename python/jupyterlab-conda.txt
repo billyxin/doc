@@ -1,0 +1,9 @@
+安装和升级
+pip install jupyterlab==3.0.8
+
+官网
+https://anaconda.org/conda-forge/jupyterlab
+更多
+https://jupyterlab.readthedocs.io/en/stable/user/language.html
+
+-----------------

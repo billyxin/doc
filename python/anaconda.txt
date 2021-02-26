@@ -1,0 +1,38 @@
+
+升级anaconda
+
+1,先更新conda
+conda upgrade conda
+
+更新失败则：conda update --force conda
+
+2,更新anaconda
+conda update anaconda
+
+3,更新python，
+这个命令默认升级到最新版本
+conda install python
+
+如需指定版本 这个很难成功 20小时冲突检查
+//conda install python=3.9.1
+
+4,更新所有包
+conda update --all
+
+
+-------------------------
+
+
+使用Python 3.9创建新环境：
+conda create -n python39 python=3.9.1
+
+删除环境
+conda remove -n py39 --all
+
+激活新的Python 3.9环境：
+conda activate python39
+
+------------
+
+更新conda：
+conda update -n base -c defaults conda
