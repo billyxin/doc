@@ -1,0 +1,5 @@
+插件：
+codeglance
+chinese(simplified)
+CSV Pluin
+IDE Eval Reset
