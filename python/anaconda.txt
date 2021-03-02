@@ -24,13 +24,16 @@ conda update --all
 
 
 使用Python 3.9创建新环境：
-conda create -n python39 python=3.9.1
+conda create -n py39 python=3.9.1
 
 删除环境
 conda remove -n py39 --all
 
 激活新的Python 3.9环境：
-conda activate python39
+conda activate py39
+
+退出：
+conda deactivate
 
 ------------
 
